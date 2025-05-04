@@ -14,7 +14,7 @@ const pageConfig: PageConfig = {
   // If specified, monitors will be grouped and ordered, not-listed monitors will be invisble (but still monitored)
   group: {
     '🌐 公共服务': ['nezha_monitor'],
-    '🔐 私人服务': ['oec_tcp_monitor'],
+    '🔐 私人服务': ['Terraria_tcp_monitor','LAC_tcp_monitor','bedrock_tcp_monitor'],
   },
 }
 
@@ -65,13 +65,35 @@ const workerConfig: WorkerConfig = {
     },
     // Example TCP Monitor
     {
-      id: 'oec_tcp_monitor',
-      name: 'oec TCP监控',
+      id: 'Terraria_tcp_monitor',
+      name: 'TerrariaServer.bin.x86_64 @ MCST',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'TCP_PING',
       // `target` should be `host:port` for tcp monitors
-      target: '1.2.3.4:22',
-      tooltip: '1.2.3.4:22 My production server SSH',
+      target: 'N1.MCST.IO:35663',
+      tooltip: 'N1.MCST.IO',
+      statusPageLink: '',
+      timeout: 5000,
+    },
+    {
+      id: 'LAC_tcp_monitor',
+      name: 'LAC_Linux_v1.7.1.x86_64 @ MCST',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'TCP_PING',
+      // `target` should be `host:port` for tcp monitors
+      target: 'N5.MCST.IO:25622',
+      tooltip: 'N5.MCST.IO',
+      statusPageLink: '',
+      timeout: 5000,
+    },
+    {
+      id: 'bedrock_tcp_monitor',
+      name: 'bedrock_server @ FREEZE',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'TCP_PING',
+      // `target` should be `host:port` for tcp monitors
+      target: 'pl-01.freezehost.pro:9626',
+      tooltip: 'pl-01.freezehost.pro',
       statusPageLink: '',
       timeout: 5000,
     },
