@@ -13,8 +13,8 @@ const pageConfig: PageConfig = {
   // If not specified, all monitors will be shown in a single list
   // If specified, monitors will be grouped and ordered, not-listed monitors will be invisble (but still monitored)
   group: {
-    '🌐 公共服务': ['nezha_monitor'],
-    '🔐 私人服务': ['Terraria_tcp_monitor','LAC_tcp_monitor','bedrock_tcp_monitor'],
+    '🌐 公共服务': [''],
+    '🔐 私人服务': ['','',''],
   },
 }
 
