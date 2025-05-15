@@ -28,17 +28,17 @@ const workerConfig: WorkerConfig = {
     // Example HTTP Monitor
     {
       // `id` should be unique, history will be kept if the `id` remains constant
-      id: 'nezha_monitor',
+      id: '',
       // `name` is used at status page and callback message
-      name: '哪吒@koyeb',
+      name: '',
       // `method` should be a valid HTTP Method
       method: 'POST',
       // `target` is a valid URL
-      target: 'https://nezha-yyyrspeed.koyeb.app',
+      target: 'https://',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
-      tooltip: 'https://app.koyeb.com/services/2ddd154e-e184-45ad-9fdd-990b4742ba54',
+      tooltip: 'https://4',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-      statusPageLink: 'https://nezha-yyyrspeed.koyeb.app',
+      statusPageLink: 'https://',
       // [OPTIONAL] `hideLatencyChart` will hide status page latency chart if set to true
       hideLatencyChart: false,
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
