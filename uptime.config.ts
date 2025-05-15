@@ -73,7 +73,7 @@ const workerConfig: WorkerConfig = {
       target: '',
       tooltip: '',
       statusPageLink: '',
-      timeout: ,
+      timeout: 5000,
     },
   ],
   notification: {
