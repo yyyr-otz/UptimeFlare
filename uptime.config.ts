@@ -65,37 +65,15 @@ const workerConfig: WorkerConfig = {
     },
     // Example TCP Monitor
     {
-      id: 'Terraria_tcp_monitor',
-      name: 'TerrariaServer.bin.x86_64 @ MCST',
+      id: '',
+      name: '',
       // `method` should be `TCP_PING` for tcp monitors
-      method: 'TCP_PING',
+      method: '',
       // `target` should be `host:port` for tcp monitors
-      target: 'N1.MCST.IO:35663',
-      tooltip: 'N1.MCST.IO',
+      target: '',
+      tooltip: '',
       statusPageLink: '',
-      timeout: 5000,
-    },
-    {
-      id: 'LAC_tcp_monitor',
-      name: 'LAC_Linux_v1.7.1.x86_64 @ MCST',
-      // `method` should be `TCP_PING` for tcp monitors
-      method: 'TCP_PING',
-      // `target` should be `host:port` for tcp monitors
-      target: 'N5.MCST.IO:25622',
-      tooltip: 'N5.MCST.IO',
-      statusPageLink: '',
-      timeout: 5000,
-    },
-    {
-      id: 'bedrock_tcp_monitor',
-      name: 'bedrock_server @ FREEZE',
-      // `method` should be `TCP_PING` for tcp monitors
-      method: 'TCP_PING',
-      // `target` should be `host:port` for tcp monitors
-      target: 'pl-01.freezehost.pro:9626',
-      tooltip: 'pl-01.freezehost.pro',
-      statusPageLink: '',
-      timeout: 5000,
+      timeout: ,
     },
   ],
   notification: {
